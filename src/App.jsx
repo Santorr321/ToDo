@@ -11,9 +11,9 @@ import { HiddenButton } from './components/HiddenButton/HiddenButton';
 import { CreateTodoButton } from './components/CreateTodoButton/CreateTodoButton';
 
 const todos = [ 
-{text:'Sacar Maylo',completed:false},    
-{text:'Dar Comida a Maylo',completed:false},
-{text:'Dormir',completed:false},
+{text:'Sacar Maylo',completed:true},    
+{text:'Dar Comida a Maylo',completed:true},
+{text:'Dormir',completed:true},
 {text:'Terminar Cursos',completed:false},
 {text:'Comer pollo',completed:false},
 {text:'Salir al parque',completed:false},
@@ -31,7 +31,7 @@ function App() {
             <TodoSearch placeholder='Seach...' type='search' id='search' autocomplete='off'/>
             <TodoList>
              {todos.map(todo =>(
-             <TodoItem key={todo.text} text={todo.text}/>))}
+             <TodoItem key={todo.text} text={todo.text} completed={todo.completed}/>))}
             </TodoList>
             <HiddenButton/> 
         </TodoContainer>

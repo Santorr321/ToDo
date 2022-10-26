@@ -34,13 +34,7 @@ li{
      }
 
      .x-check{
-        width: 11px;
-        height: 11px;
         content: url('/public/icons/x2.svg') ;
-        position: static;
-        top:5px;
-        right: 5px;
-        opacity: 60%;
         }
 
      .button{
@@ -53,10 +47,5 @@ li{
      }
      .button-check{
         content: url('/public/icons/check.svg');
-        position: relative;
-        left: 12px;
-        align-self: center;
-        width: 24px;
-        height: 24px;
      }
 }
