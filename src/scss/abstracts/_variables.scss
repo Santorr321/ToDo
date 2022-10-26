@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
-:root{
     /*fonts*/
-    --font-monserat:'Montserrat', sans-serif;
+    $font-monserat:'Montserrat', sans-serif;
+    $font-dancing:'Dancing Script', hand; 
+    /*fonts size*/
+    $title:6.4rem;
+    $h1-desktop:4.2rem;
+    $h1-mobile:3.4rem;
+    $h2-desktop:2.4rem;
+    $h2-mobile:1.5rem;
+    $p1: 2.2rem;
+    $p2: 2.2rem;
+    $p3: 1.8rem;
+    $p4: 1.6rem;
+    $p5: 1.2rem;
+    $p6: 1.1rem;
+    
     /*colors*/
-}
+    $first-color:#FCF6E1;
+    $second-color:#45656D;
+    $third-color:#FB5577;
+    $black:#262626;
+    $grey1:#69696B;
+    $grey2:#ABABB5;
+    $white:#FFFFFF ;
+
+

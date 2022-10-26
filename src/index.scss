@@ -1,7 +1,20 @@
 /* abastracts */
-@use './scss/abstracts/variables';
-@use './scss/abstracts/mixins';
+@import './scss/abstracts/variables';
+@import './scss/abstracts/mixins';
+
+
+
+/* components*/
+@import './scss/components/todocontainer';
+@import'./scss/components/todotitle';
+@import './scss/components/todoimg';
+@import './scss/components/progressbarr';
+@import	'./scss/components/todosearch';
+@import './scss/components/todolist';
+@import './scss/components/todoitem';
+@import './scss/components/createtodobutton';
+@import './scss/components/hiddenbutton';
 
 /*base*/
-@use './scss/base/base';
-@use './scss/base/resets';
+@import './scss/base/base';
+@import './scss/base/resets';

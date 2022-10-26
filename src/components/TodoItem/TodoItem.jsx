@@ -2,8 +2,9 @@ import React from 'react'
 
 function TodoItem(props) {
   return (
+    
     <li>
-      <span>C</span><p>{props.text}</p><span>X</span>
+      <span className='button'></span><p>{props.text}</p><span className='x'></span>
     </li>
   )
 }

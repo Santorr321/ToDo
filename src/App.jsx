@@ -1,6 +1,5 @@
 import React from 'react';
 /*Components*/ 
-import './App.scss';
 import { TodoContainer } from './components/TodoContainer/TodoContainer.jsx';
 import { TodoTitle } from './components/TodoTitle/TodoTitle.jsx';
 import { TodoImg } from './components/TodoImg/TodoImg.jsx';
@@ -15,7 +14,11 @@ const todos = [
 {text:'Sacar Maylo',completed:false},    
 {text:'Dar Comida a Maylo',completed:false},
 {text:'Dormir',completed:false},
-{text:'Terminar Cursos',completed:false}
+{text:'Terminar Cursos',completed:false},
+{text:'Comer pollo',completed:false},
+{text:'Salir al parque',completed:false},
+{text:'Prueba',completed:false},
+{text:'Prueba 2',completed:false},
 ];
 
 function App() {
@@ -25,7 +28,7 @@ function App() {
             <TodoTitle/>
             <TodoImg/>
             <ProgressBar/>
-            <TodoSearch/>
+            <TodoSearch placeholder='Seach...' type='search' id='search' autocomplete='off'/>
             <TodoList>
              {todos.map(todo =>(
              <TodoItem key={todo.text} text={todo.text}/>))}

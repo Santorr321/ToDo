@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 function TodoTitle() {
   return (
-    <p>To Do List</p>
+    <h1>To Do List</h1>
   )
 }
 

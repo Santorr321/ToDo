@@ -2,7 +2,9 @@ import React from 'react'
 
 function HiddenButton() {
   return (
-    <p><span>E</span> Hide Complete Task</p>
+    <section className='hidden-button'>
+    <p><span></span> Hide Complete Task</p>
+    </section>
 )
 }
 

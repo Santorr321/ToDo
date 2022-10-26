@@ -2,9 +2,9 @@ import React from 'react';
 
 function ProgressBar() {
   return (
-    <section>
-    <p><span>100%</span> Completed</p>
-    <span className='ProgressBar'>||||||||</span>
+    <section className='progressbar'>
+    <p><span className='%'>35%</span> Completed</p>
+    <div className='bar'></div>
     </section>
   )
 };

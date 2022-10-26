@@ -1,15 +1,16 @@
 import React from 'react'
 
 const TodoSearch = (props) => {
-    const {id, placeholder, type} = props
+    const {id, placeholder, type, autocomplete} = props
     return (
       <label htmlFor={id}>
         <input 
           id={id}
           placeholder={placeholder}
           type={type}
+          autoComplete={autocomplete}
         />
-        <span>Q</span>
+        <img src='/public/icons/search.svg'></img>
       </label>
       
     );

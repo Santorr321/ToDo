@@ -1,0 +1,16 @@
+.hidden-button{
+    font-size: $p4;
+    color:$second-color;
+    
+
+    p{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    span{
+        height: 30px;
+        width: 30px;
+        content: url('/public/icons/eye-off.svg');
+    }
+}
