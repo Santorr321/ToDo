@@ -4,7 +4,7 @@ function ProgressBar() {
   return (
     <section className='progressbar'>
     <p><span className='%'>35%</span> Completed</p>
-    <div className='bar'></div>
+    <progress value='5' max='10' className='bar'></progress>
     </section>
   )
 };

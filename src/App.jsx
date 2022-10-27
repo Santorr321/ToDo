@@ -25,6 +25,7 @@ function App() {
    return (
      <>
         <TodoContainer>
+            <CreateTodoButton/>
             <TodoTitle/>
             <TodoImg/>
             <ProgressBar/>
@@ -35,7 +36,7 @@ function App() {
             </TodoList>
             <HiddenButton/> 
         </TodoContainer>
-        <CreateTodoButton/>
+        
      </>
    )
  }
