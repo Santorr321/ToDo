@@ -1,8 +1,19 @@
 import React from 'react'
 
+
+ 
+
 function CreateTodoButton() {
+
+  const onClikButton =()=>{alert('Aqui esta el modal')};
+
   return (
-    <button><span></span></button>
+    <button
+    onClick={onClikButton}
+
+    >
+      <span></span>
+      </button>
   )
 }
 
