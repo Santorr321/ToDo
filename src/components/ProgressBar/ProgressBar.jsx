@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ProgressBar() {
+function ProgressBar({percentage}) {
   return (
     <section className='progressbar'>
-    <p><span className='%'>35%</span> Completed</p>
-    <progress value='5' max='10' className='bar'></progress>
+    <p><span className='%'>{percentage}%</span> Completed</p>
+    <progress value={percentage} max='100' className='bar'></progress>
     </section>
   )
 };
