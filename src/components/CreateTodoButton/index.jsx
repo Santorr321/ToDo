@@ -3,14 +3,16 @@ import React from 'react'
 
  
 
-function CreateTodoButton() {
+function CreateTodoButton(props) {
 
-  const onClikButton =()=>{alert('Aqui esta el modal')};
+  const onClikButton =()=>{
+
+    props.setOpenModal(prevState => !prevState);
+  };
 
   return (
     <button
     onClick={onClikButton}
-
     >
       <span></span>
       </button>

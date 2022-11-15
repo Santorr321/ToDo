@@ -1,9 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import ReactDOM from 'react-dom';
+import {App} from './APP/index';
 import './index.scss';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <App />
+    <App/>   
 )
+
+ReactDOM.createPortal(
+    <App/>,
+document.getElementById('modal')
+);

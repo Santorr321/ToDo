@@ -1,4 +1,5 @@
-button{
+article{
+   button{
     z-index: 50;
     background-color: $second-color;
     height: 77px;
@@ -24,4 +25,5 @@ button{
       filter: brightness(0) saturate(100%) invert(44%) sepia(83%) saturate(1582%) hue-rotate(317deg) brightness(101%) contrast(97%);
    }
 
+}
 }
