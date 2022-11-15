@@ -26,7 +26,7 @@ li{
      .x{
      width: 15px;
      height: 15px;
-     content: url('/public/icons/x.svg') ;
+     content: url(/src/assets/icons/x.svg) ;
      position: relative;
      top: 6px;
      right: 5px;
@@ -34,11 +34,11 @@ li{
      }
 
      .x-check{
-        content: url('/public/icons/x2.svg') ;
+        content: url(/src/assets/icons/x2.svg) ;
         }
 
      .button{
-        content: url('/public/icons/circle.svg');
+        content: url(/src/assets/icons/circle.svg);
         position: relative;
         left: 12px;
         align-self: center;
@@ -46,6 +46,6 @@ li{
         height: 24px;
      }
      .button-check{
-        content: url('/public/icons/check.svg');
+        content: url(/src/assets/icons/check.svg);
      }
 }

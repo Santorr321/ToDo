@@ -18,7 +18,7 @@ const TodoSearch = (props) => {
           value={searchValue}
           onChange={onSearchValueChage}
         />,
-        <img src='/public/icons/search.svg'></img>
+        <img src='/src/assets/icons/search.svg'></img>
       </label>
       
     );
