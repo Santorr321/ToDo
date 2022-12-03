@@ -23,7 +23,7 @@
     }
 
     @include media(mobile-s){
-        max-width: none;
+        max-width: 306px;
         }
 
     @include media(mobile-only){
