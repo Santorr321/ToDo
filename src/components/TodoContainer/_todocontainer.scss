@@ -13,6 +13,14 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 position: absolute;
+@include media (desktop-s){
+    max-width: 600px;
+    max-height: 100%;
+    }
+@include media(mobile-s){
+max-width: none;
+margin: 0px;
+}
 }
 .p1{
     font-size: $p3;

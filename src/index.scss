@@ -5,16 +5,19 @@
 
 
 /* components*/
-@import './scss/components/todocontainer';
-@import'./scss/components/todotitle';
-@import './scss/components/todoimg';
-@import './scss/components/progressbarr';
-@import	'./scss/components/todosearch';
-@import './scss/components/todolist';
-@import './scss/components/todoitem';
-@import './scss/components/createtodobutton';
-@import './scss/components/hiddenbutton';
-@import './scss/components/modal';
+@import'./components/TodoContainer/todocontainer';
+@import'./components/TodoTitle/todotitle';
+@import './components/TodoImg/todoimg';
+@import './components/ProgressBar/progressbarr';
+@import './components/TodoSearch/todosearch';
+@import './components/TodoList/todolist';
+@import './components/TodoItem/todoitem';
+@import './components/CreateTodoButton/createtodobutton';
+@import './components/HiddenButton/hiddenbutton';
+@import './components/Modal/modal';
+@import './components//TodoForm/todoform';
+@import './components/Loading/loading';
+@import './components/NotFound/notfound';
 
 /*base*/
 @import './scss/base/base';

@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function TodoContainer(props) {
-  return (
-    <article>
-     {props.children}   
-    </article>
-  )
-};
+  return <article>{props.children}</article>;
+}
 
-export {TodoContainer};
+export { TodoContainer };

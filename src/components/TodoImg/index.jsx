@@ -1,10 +1,8 @@
-import React from 'react'
-import img from '../../assets/img.svg'
+import React from "react";
+import img from "../../assets/img.svg";
 
 function TodoImg() {
-  return (
-   <img src={img}  alt="People organizing their tasks" />
-  )
+  return <img src={img} alt="People organizing their tasks" />;
 }
 
-export {TodoImg}
+export { TodoImg };

@@ -1,22 +1,15 @@
-import React from 'react'
-
-
- 
+import React from "react";
 
 function CreateTodoButton(props) {
-
-  const onClikButton =()=>{
-
-    props.setOpenModal(prevState => !prevState);
+  const onClikButton = () => {
+    props.setOpenModal((prevState) => !prevState);
   };
 
   return (
-    <button
-    onClick={onClikButton}
-    >
+    <button onClick={onClikButton}>
       <span></span>
-      </button>
-  )
+    </button>
+  );
 }
 
-export {CreateTodoButton}
+export { CreateTodoButton };

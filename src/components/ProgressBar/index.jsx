@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
 
-function ProgressBar({percentage}) {
+function ProgressBar({ percentage }) {
   return (
-    <section className='progressbar'>
-    <p><span className='%'>{percentage}%</span> Completed</p>
-    <progress value={percentage} max='100' className='bar'></progress>
+    <section className="progressbar">
+      <p>
+        <span className="%">{percentage}%</span> Completed
+      </p>
+      <progress value={percentage} max="100" className="bar"></progress>
     </section>
-  )
-};
+  );
+}
 
-export {ProgressBar};
+export { ProgressBar };

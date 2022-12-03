@@ -1,6 +1,6 @@
 .hidden-button{
     font-size: $p4;
-    color:$second-color;
+    color:$first-color;
     position: relative;
     right: 10px;
     
@@ -15,4 +15,9 @@
         width: 30px;
         content: url(/src/assets/icons/eye-off.svg);
     }
+
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(44%) sepia(83%) saturate(1582%) hue-rotate(317deg) brightness(101%) contrast(97%);
+        cursor: pointer;
+     }
 }
