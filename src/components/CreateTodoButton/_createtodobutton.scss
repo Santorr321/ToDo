@@ -31,5 +31,8 @@ article {
       top: 80%;
       left: 75%;
          }
+      @include media (desktop-s){
+         top: 88%;
+      }
    }
 }
