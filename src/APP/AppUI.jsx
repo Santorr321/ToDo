@@ -7,7 +7,7 @@ import { ProgressBar } from "../components/ProgressBar/index.jsx";
 import { TodoList } from "../components/TodoList/index.jsx";
 import { TodoItem } from "../components/TodoItem";
 import { TodoSearch } from "../components/TodoSearch";
-import { HiddenButton } from "../components/HiddenButton";
+import { HiddenButton } from "../components/MoreProyects";
 import { CreateTodoButton } from "../components/CreateTodoButton";
 import { ToDoForm } from "../components/TodoForm/index.jsx";
 import { Loadingstate } from "../components/Loading/index.jsx";

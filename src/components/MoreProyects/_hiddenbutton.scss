@@ -9,11 +9,13 @@
         display: flex;
         align-items: center;
         text-align: center;
+
     }
     span{
-        height: 30px;
-        width: 30px;
-        content: url(/src/assets/icons/eye-off.svg);
+        height: 40px;
+        width: 40px;
+        content: url(/src/assets/logopersonal.svg);
+        filter: brightness(0) saturate(100%) invert(95%) sepia(8%) saturate(1299%) hue-rotate(313deg) brightness(109%) contrast(98%) ;
     }
 
     &:hover {

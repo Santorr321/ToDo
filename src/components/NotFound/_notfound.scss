@@ -1,4 +1,5 @@
 .notfound{
+height: 100%;
 display: flex;
 align-items: center;
 align-content: center;
@@ -98,6 +99,21 @@ flex-direction: column;
         }
         100% {
           transform: scale(1.2);
+        }
+      }
+
+      p{
+        font-size: $p5;
+        color: #45656d86;
+
+        span{
+          color: $white;
+          background-color: $second-color;
+          border-radius: 100%;
+          width: 15px;
+          height: 15px;
+          display: inline-block;
+          text-align: center;
         }
       }
       

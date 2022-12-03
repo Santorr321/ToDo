@@ -4,7 +4,7 @@ function HiddenButton() {
   return (
     <section className="hidden-button">
       <p>
-        <span></span> Hide Complete Task
+        <span></span> More proyects
       </p>
     </section>
   );
