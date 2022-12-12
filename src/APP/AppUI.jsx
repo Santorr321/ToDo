@@ -28,6 +28,7 @@ function AppUI() {
     percentage,
     openModal,
     setOpenModal,
+    totalTodos,
   } = React.useContext(TodoContext);
 
   return (
@@ -46,15 +47,18 @@ function AppUI() {
           setSearchValue={setSearchValue}
         />
         <TodoList>
-          {loading && <Loadingstate />}
-          {Error && <p className="p1">Erorr Reload ...</p>}
-          {!loading && !searchedTodos.length && <NotFound />}
+          {!!loading && <Loadingstate />}
+          {!!Error && <p className="p1">Erorr Reload ...</p>}
+          {!loading && !totalTodos && <NotFound />}
+          {!!totalTodos && !searchedTodos.length && (
+            <p className="p1">Not found {searchValue}</p>
+          )}
+          {}
           {searchedTodos.map((todo) => (
             <TodoItem
               key={todo.text}
               text={todo.text}
               completed={todo.completed}
-              hidde={todo.hidden}
               onComplete={() => completeTodo(todo.text)}
               onDelete={() => deleteTodo(todo.text)}
             />
